@@ -1,16 +1,16 @@
-# Y_blogs
+# S_blogs
 
-Y_blogs is a full-stack blogging platform that allows users to create, edit, and share blogs, comment on posts, and authenticate using Google. The project is built with a React + Vite frontend and a Node.js/Express backend, with cloud storage and email verification features.
+S_blogs is a full-stack blogging platform that allows users to create, edit, and share blogs, comment on posts, and authenticate using Google. The project is built with a React + Vite frontend and a Node.js/Express backend, with cloud storage and email verification features.
 
 ## Description
-Y_blogs provides a modern blogging experience with a clean UI, secure authentication, and real-time interactions. Users can register, log in with Google, write blogs, edit or delete their posts, comment on others' blogs, and manage their profiles. The backend supports image uploads, email verification, and robust data management.
+S_blogs provides a modern blogging experience with a clean UI, secure authentication, and real-time interactions. Users can register, log in with Google, write blogs, edit or delete their posts, comment on others' blogs, and manage their profiles. The backend supports image uploads, email verification, and robust data management.
 
 ## Getting Started
 
 1. Clone the repository:
    ```powershell
    git clone <repo-url>
-   cd Y_blogs
+   cd S_blogs
    ```
 2. Install dependencies for both frontend and backend:
    ```powershell
@@ -35,9 +35,9 @@ Create a `.env` file in the `backend` directory with the following variables:
 ```env
 MONGO_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_jwt_secret>
-CLOUDINARY_CLOUD_NAME=<your_cloudinary_cloud_name>
-CLOUDINARY_API_KEY=<your_cloudinary_api_key>
-CLOUDINARY_API_SECRET=<your_cloudinary_api_secret>
+CLOUDINARS_CLOUD_NAME=<your_cloudinarS_cloud_name>
+CLOUDINARS_API_KEY=<your_cloudinarS_api_key>
+CLOUDINARS_API_SECRET=<your_cloudinarS_api_secret>
 FIREBASE_API_KEY=<your_firebase_api_key>
 FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
 FIREBASE_PROJECT_ID=<your_firebase_project_id>
